@@ -1,0 +1,94 @@
+
+body {
+    background-color: bisque;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.cabecera img {
+    width: 100%;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera p {
+    width: 450px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: blueviolet;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.receta {
+    font-weight: bold;
+}
+
+.secundario {
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+.principal {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: tomato;
+    font-family: "vesper-libre", monospace;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nutrition {
+    color: gray;
+}
+
+.nutrition2 {
+    color: chocolate;
+}
+
+.nutrition, .nutrition2 {
+    margin-top: 10px;
+} 
+
+.nutrition ul li, .nutrition2 ul li {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    margin: 20px;
+    gap: 80px;
+}
+
+@media screen and (min-width:360px) and (max-width:480px){
+    .principal {
+        width: 82%;
+    }
+
+    .cabecera h1 {
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+
+    .cabecera p {
+        width: 265px;
+    }
+}
